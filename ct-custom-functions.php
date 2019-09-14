@@ -2,7 +2,7 @@
 /*
 Plugin Name: CT Dokan Custom Functions
 Plugin URI: https://dinislambds.com/
-Description: Custom Dokan Functions plugin by <a href="//CreatifyTech.com/">Creatify Tech</a> for jeengin.com | Added more features with extra functionalities for Dokan multivendor plugin. Author
+Description: Custom Dokan Functions plugin by <a href="//CreatifyTech.com/">Creatify Tech</a>. Added more features with extra functionalities for Dokan multivendor plugin. Author
 Version: 1.1
 Author: Creatify Tech (Md Din Islam)
 Author URI: https://CreatifyTech.com/
@@ -77,7 +77,7 @@ add_action( 'dokan_seller_meta_fields', 'creatify_tech_extra_fields_profile', 10
 add_action( 'dokan_process_seller_meta_fields', 'creatify_tech_extra_fields_profile', 10 );
 function creatify_tech_extra_fields_profile($user){
     
-$store_settings        = dokan_get_store_info( $user->ID );
+$store_settings = dokan_get_store_info( $user->ID );
 
 ?>
      <tr>
